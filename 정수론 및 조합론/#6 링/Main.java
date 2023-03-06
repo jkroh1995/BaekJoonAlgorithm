@@ -3,18 +3,18 @@ import java.util.*;
 public class Main {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        int one = sc.nextInt();
-        int two = sc.nextInt();
+        int count = sc.nextInt();
+        int standard = sc.nextInt();
 
-        for(int i=1;i<one;i++){
-            int three=sc.nextInt();
-            if(two>three){
-                int gcd = gcd(two, three);
-                System.out.printf("%d/%d\n",two/gcd, three/gcd);
+        for(int i=1;i<count;i++){
+            int input=sc.nextInt();
+            if(standard>input){
+                int gcd = gcd(standard, input);
+                System.out.printf("%d/%d\n",standard/gcd, input/gcd);
                 continue;
             }
-            int gcd = gcd(three, two);
-            System.out.printf("%d/%d\n",two/gcd, three/gcd);
+            int gcd = gcd(input, standard);
+            System.out.printf("%d/%d\n",standard/gcd, input/gcd);
         }
 
     }
