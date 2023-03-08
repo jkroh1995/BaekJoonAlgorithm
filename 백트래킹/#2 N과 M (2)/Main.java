@@ -18,7 +18,7 @@ public class Main {
     }
 
     private static void recursive(String newNumbers, String numbers) {
-        if(newNumbers.length() == length*2-1){
+        if(newNumbers.length() == length*2-1){ // 공백을 포함한 길이를 계산해야 한다.
             System.out.println(newNumbers);
             return;
         }
