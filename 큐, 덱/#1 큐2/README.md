@@ -21,3 +21,7 @@
 ||예제 입력|예제 출력|
 |---|---|---|
 |1|15<br>push 1<br>push 2<br>front<br>back<br>size<br>empty<br>pop<br>pop<br>pop<br>size<br>empty<br>pop<br>push 3<br>empty<br>front|1<br>2<br>2<br>0<br>1<br>2<br>-1<br>0<br>1<br>-1<br>0<br>3|
+
+# 알고리즘 분류
+- 자료구조
+- 큐
